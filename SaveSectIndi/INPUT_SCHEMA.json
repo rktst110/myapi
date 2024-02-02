@@ -1,0 +1,38 @@
+{
+  "title": "Firestore Import input",
+  "description": "Imports dataset to Firestore DB",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "datasetId": {
+      "title": "Dataset",
+      "type": "string",
+      "description": "Dataset ID of dataset you want to import to Firestore",
+      "editor": "textfield"
+    },
+    "apiKey": {
+      "title": "Api key",
+      "type": "string",
+      "description": "Firestore API key",
+      "editor": "textfield"
+    },
+    "authDomain": {
+      "title": "Auth domain",
+      "type": "string",
+      "description": "Firestore authentication domain",
+      "editor": "textfield"
+    },
+    "projectId": {
+      "title": "Project ID",
+      "type": "string",
+      "description": "Firestore project ID",
+      "editor": "textfield"
+    },
+    "collectionName": {
+      "title": "Collection name",
+      "type": "string",
+      "description": "Firestore collection name",
+      "editor": "textfield"
+    }
+  }
+}
