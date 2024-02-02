@@ -8,31 +8,36 @@
       "title": "Dataset",
       "type": "string",
       "description": "Dataset ID of dataset you want to import to Firestore",
-      "editor": "textfield"
+      "editor": "textfield",
+      "default": "randomDatasetId"
     },
     "apiKey": {
       "title": "Api key",
       "type": "string",
       "description": "Firestore API key",
-      "editor": "textfield"
+      "editor": "textfield",
+      "default": "AIzaSyBXNKL0XqFnP-6ditzU2_Ylim_p9RaKPQ0"
     },
     "authDomain": {
       "title": "Auth domain",
       "type": "string",
       "description": "Firestore authentication domain",
-      "editor": "textfield"
+      "editor": "textfield",
+      "default": "nse-data-saving-2023-5hf5fgdrg.firebaseapp.com"
     },
     "projectId": {
       "title": "Project ID",
       "type": "string",
       "description": "Firestore project ID",
-      "editor": "textfield"
+      "editor": "textfield",
+      "default": "nse-data-saving-2023-5hf5fgdrg"
     },
     "collectionName": {
       "title": "Collection name",
       "type": "string",
       "description": "Firestore collection name",
-      "editor": "textfield"
+      "editor": "textfield",
+      "default": "apify"
     }
   }
 }
